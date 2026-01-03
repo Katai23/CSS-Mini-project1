@@ -1,0 +1,588 @@
+body {
+  font-family: 'Poppins', sans-serif;
+}
+
+.orange-btn {
+    background-color:#FFA502;
+    height:70px;
+    width:180px;
+    border-radius:15px;
+    color:white;
+    border:none; 
+    font-size:16px;
+    font-weight:500;
+}
+
+.inner {
+    display:flex;
+    max-width: 1220px;
+    width:1220px; 
+}
+
+#navigation {
+
+    flex:1;
+    display: flex;
+    flex-direction:row;
+    align-items:center;
+    padding:30px 0px;
+}
+
+#navigation-logo img {
+    height:72px;
+}
+
+#navigation-links {
+    flex:1;
+}
+#navigation-links ul { 
+
+    list-style: none;
+}
+
+#navigation-links ul li {
+    display:inline-block;
+}
+
+#navigation-links ul li a {
+    color:black;
+    text-decoration:none;
+    padding:20px;    
+}
+
+#navigation-actions {
+    display:flex;
+}
+
+#navigation-actions #contact-now-btn {
+    background-color:black;
+    color:white;
+    border-radius: 15px;
+    height:64px;
+    width:162px;
+    cursor:pointer;
+}
+
+#navigation-actions #mobile-menu-btn{
+    cursor:pointer;
+    border:none;
+    background:none;
+    display:none;
+}
+
+#navigation-actions #mobile-menu-btn img {
+    width:40px;
+}
+
+#education {
+    display:flex; 
+    background-color:#fffbf4;
+}
+
+#education-information h1{
+    font-size:80px;
+    font-weight:700;
+}
+
+#education-information p {
+    font-size:18px;
+    line-height:36px;
+    font-weight:400;
+}
+
+#education-picture img {
+    width:776px;
+}
+
+#companies {
+    display:flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items:center;
+}
+
+#company-names ul {
+    list-style:none;
+}
+
+#company-names ul li {
+    display:inline-block;
+}
+
+#company-names ul li a {
+    display:block;
+    width:224px;
+    height:76px;
+}
+
+#companies {
+    display:flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items:center;
+    flex:1;
+}
+
+#career {
+    display:flex;
+    align-items:center;
+    justify-content: center;
+    gap:80px;
+    flex:1;
+}
+
+#career-video img {
+    width:668px;
+    height:632px;
+}
+
+#career-information {
+    width: 453px;
+    height: 462px;
+}
+
+#department {
+    background-color: #fffbf4;    
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    gap:40px;
+    flex:1; 
+}
+
+#department h1 {
+    font-size: 40px;
+    font-weight:700px;
+}
+
+#department-jobs {
+    display:flex;
+    gap:30px;
+}
+
+.department-card {
+    background-color:white;
+    border-radius: 20px;
+    padding:10px;
+    width:395px;
+    height:512px;
+}
+
+.department-card a {
+    text-decoration:none;
+    color:#FFA502;
+}
+
+#teachers {
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    flex:1;
+}
+
+#teachers-header {    
+    display:flex;
+    width:100%;
+    align-items:center;
+}
+
+#teachers-header-title {
+    flex:1; 
+}
+
+#teachers-list { 
+    display:flex;
+    gap:20px;    
+}
+
+.teacher-card {
+    display:flex;
+    width:410px;
+    flex-direction:column;
+    align-items:center;
+}
+
+.teacher-card .avatar {
+  width: 395px;
+  height: 395px;
+  border-radius: 50%;
+}
+
+.teacher-card#teachers-list-shaapir .avatar {
+    background: #D9D1FB;
+}
+
+.teacher-card#teachers-list-sellina .avatar {
+    background: #9BF5CB;
+}
+
+.teacher-card#teachers-list-john .avatar {
+    background: #FEC6A2;
+}
+
+.teacher-card ul {
+    list-style:none;
+    margin:0;
+    padding:0;
+}
+
+.teacher-card ul li {
+    display:inline-block;
+}
+
+.teacher-card ul li a {
+    display:block;
+    padding:8px;
+}
+
+.teacher-card ul li img {
+    height:18px;
+}
+
+.comment-card.orange {
+   background-color:#FFA502; 
+   color:white;
+}
+
+.comment-card {
+    display:flex;
+    background-color:#fff;
+    border-radius:18px;
+    padding:20px; 
+    color:#C4C4C4;    
+    width:560px;
+    flex-direction:column;
+}
+
+.comment-card-header {
+    display:flex;
+    width:100%;
+    align-items:center;
+    gap:20px;
+}
+
+.comment-card-header-left {
+ flex:1;
+ display:flex;
+}
+
+.comment-card-header-photo {
+  width: 87px;
+  height: 87px;
+  border-radius: 50%;
+  background-color:#C4C4C4;
+}
+
+.comment-card-header-title h1 {
+    font-size:24px;
+    font-weight:bold;
+    margin:0px;
+    padding:0px;
+}
+
+.comment-actions {
+    display:flex;
+    gap:10px;
+}
+
+.comment-actions a {
+    display:block;
+    width:56px;
+    height:56px;
+}
+
+#review {
+    display:flex;
+    gap:60px;
+    justify-content:center; 
+    align-items:center;
+    flex:1;
+}
+
+#review-text {
+    width:453px;
+}
+
+#review-comments {
+    width:650px;
+    height:500px;
+    display:block;
+    position:relative;
+}
+
+.comment-card.orange {
+    position:absolute;
+    top:10%;
+    right:0%;
+    z-index:2;
+}
+
+.comment-card.grey {
+    position:absolute;
+    top:40%;
+    left:0%;
+    z-index:1;
+}
+
+.comment-actions {
+    position:absolute;
+    bottom:0px;
+    right:0px;
+}
+
+#section-promotion {
+background-color:#2A2A31;
+}
+
+#promotion {
+    background-color: #2A2A31;
+    display:flex;
+    gap:50px;
+    flex-direction:row;
+    flex:1;
+}
+
+#promotion-text { 
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    position:relative;
+}
+
+#promotion-text img {
+    position:absolute;
+    bottom:20%;
+    right:0%;
+    width:60px;
+}
+
+#promotion-actions { 
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+
+#promotion-text h1{
+    color:white;
+}
+
+#footer { 
+    background-color: black;
+    color:white;
+}
+
+#footer-top { 
+    display:flex;
+    flex-direction:row;
+    gap:85px;
+    padding:50px;
+    flex:1;
+}
+
+#footer-top h1 {
+    font-size:16px;
+}
+
+#footer-top ul {
+    list-style:none;
+    margin:0;
+    padding:0;
+}
+
+#footer-top ul li {
+    padding: 25px 0px 0px 0px;
+}
+
+#footer-top ul li a {
+    text-decoration: none;
+    color:#B3B3B3;
+}
+
+#footer-bottom {    
+    border-top:1px solid #414145;
+    display:flex;
+    justify-content: center;
+    flex:1;
+}
+
+#footer-logo { width:74px; }
+
+#footer-aboutcompany ul {
+    list-style:none;
+}
+
+#footer-aboutcompany ul li {
+    display: inline-block;
+}
+
+.section { 
+    display:flex;
+    justify-content: center;
+}
+
+@media (max-width: 675px) {
+
+  /* ---------- GLOBAL ---------- */
+  .inner {
+    width: 100%;
+    max-width: 100%;
+    flex-direction: column;
+    padding: 0 20px;
+  }
+
+  .section {
+    padding: 40px 0;
+  }
+
+  /* ---------- NAVIGATION ---------- */
+  #navigation {
+    justify-content: space-between;
+  }
+
+  #navigation-links,
+  #navigation-actions #contact-now-btn{
+    display:none;
+  }
+
+  #navigation-actions #mobile-menu-btn{
+    display:block;
+  }
+
+  #navigation-logo img {
+    height: 52px;
+  }
+
+  /* ---------- EDUCATION ---------- */
+  #education {
+    flex-direction: column-reverse;
+    text-align: center;
+    padding: 40px 20px;
+  }
+
+  #education-information h1 {
+    font-size: 32px;
+    line-height: 1.3;
+  }
+
+  #education-information p {
+    font-size: 16px;
+    line-height: 28px;
+  }
+
+  #education-picture img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+  }
+
+  .orange-btn {    
+    height: 60px;
+    font-size: 15px;   
+  }
+
+  /* ---------- COMPANIES ---------- */
+  #company-names ul li {
+    display: block;
+    margin-bottom: 10px;
+  }
+
+  #company-names ul li a {
+    width: 100%;
+    height: auto;
+  }
+
+  /* ---------- CAREER ---------- */
+  #career {
+    flex-direction: column;
+    gap: 40px;
+    text-align: center;
+  }
+
+  #career-video img {
+    width: 100%;
+    height: auto;
+  }
+
+  #career-information {
+    width: 100%;
+    height: auto;
+  }
+
+  /* ---------- DEPARTMENT ---------- */
+  #department-jobs {
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .department-card {
+    width: 100%;
+    height: auto;
+    padding: 20px;
+  }
+
+  #department h1 {
+    font-size: 28px;
+    text-align: center;
+  }
+
+  /* ---------- TEACHERS ---------- */
+  #teachers-header {
+    flex-direction: column;
+    gap: 20px;
+    text-align: center;
+  }
+
+  #teachers-list {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .teacher-card {
+    width: 100%;
+  }
+
+  .teacher-card .avatar {
+    width: 250px;
+    height: 250px;
+  }
+
+  /* ---------- REVIEW ---------- */
+  #review {
+    flex-direction: column-reverse;
+    overflow:hidden;
+  }
+
+  #review-comments { width:100%; height:460px; }
+
+  .comment-card {width:90% ; }
+  .comment-card.orange { width:100%; position:relative ;}
+  .comment-card-header { inset:0; }
+  .comment-card.grey { position:absolute; left:0; top:120px;}
+
+  /* ---------- PROMOTION ---------- */
+  #promotion {
+    flex-direction: column;
+    align-items:flex-start;
+  }
+
+ #promotion-text img{
+    transform: rotate(90deg) scaleY(-1);
+    top: 50px; 
+    position: relative;
+    margin-left: -110px;
+    height:25px;    
+ }    
+
+  /* ---------- FOOTER ---------- */
+  #footer-top {
+    flex-direction: column;
+    gap: 40px;
+    padding: 40px 20px;
+  }
+
+  #footer-bottom {
+    padding: 20px;
+  }
+
+}
